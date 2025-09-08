@@ -324,20 +324,6 @@ Track these KPIs to measure your bot's effectiveness:
 
 ---
 
-## 🆘 Support & Resources
-
-### Getting Help:
-- **n8n Community Forum:** [community.n8n.io](https://community.n8n.io)
-- **WhatsApp Business API Docs:** [developers.facebook.com/docs/whatsapp](https://developers.facebook.com/docs/whatsapp)
-- **Google Gemini Documentation:** [ai.google.dev](https://ai.google.dev)
-
-### Useful Links:
-- [n8n Workflow Templates](https://n8n.io/workflows)
-- [Meta Business Help Center](https://business.facebook.com/help)
-- [WhatsApp Business API Pricing](https://developers.facebook.com/docs/whatsapp/pricing)
-
----
-
 ## 🎉 Congratulations!
 
 You've successfully built a sophisticated WhatsApp AI bot that can:
@@ -358,6 +344,4 @@ You've successfully built a sophisticated WhatsApp AI bot that can:
 
 ---
 
-**Document Version:** 2.0  
-**Last Updated:** September 2025  
-**Compatibility:** n8n v1.0+, WhatsApp Business API v17.0+
+**Made by BOTCAMPUS.AI** 
