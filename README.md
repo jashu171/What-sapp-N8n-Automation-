@@ -64,7 +64,7 @@ Create a dedicated folder for your WhatsApp bots to stay organized as you expand
 
 ### Step 3.1: Create Business Portfolio
 
-![Fig1](./images/Fig1_annotated.png)  
+ 
 
 
 1. **Navigate to** [Meta Business Suite](https://business.facebook.com/)
@@ -76,6 +76,11 @@ Create a dedicated folder for your WhatsApp bots to stay organized as you expand
    - Business Address: Your business location
    - Contact Information: Valid email and phone number
 
+![Fig1](./images/Fig1_annotated.png) 
+
+
+
+
 ### Step 3.2: Create Meta App
 
 1. **Go to Settings** → **Apps** in Business Suite
@@ -86,6 +91,10 @@ Create a dedicated folder for your WhatsApp bots to stay organized as you expand
    - **Category:** Communication
    - **Purpose:** Customer Support/Engagement
 
+![Fig2](./images/Fig2_annotated.png)  
+
+![Fig3](./images/Fig3_annotated.png) 
+
 ### Step 3.3: Retrieve API Credentials
 
 1. **Navigate to** App → Settings → Basic
@@ -94,8 +103,11 @@ Create a dedicated folder for your WhatsApp bots to stay organized as you expand
    - **App Secret Key** (32-character string)
    - **Business Portfolio ID**
 
+
 ### 🔐 Security Note:
 Store these credentials in a secure password manager. Never share them publicly or commit them to version control.
+
+![Fig4](./images/Fig4_annotated.png) 
 
 ---
 
@@ -153,16 +165,8 @@ Remember to stay helpful and maintain a positive tone in all interactions.
 1. **Add "Google Gemini Chat Model" node**
 2. **Configure settings:**
    - **API Key:** Paste your Gemini key
-   - **Model:** `gemini-pro` (recommended for text)
-   - **Temperature:** 0.7 (balanced creativity)
-   - **Max Tokens:** 150 (controls response length)
+   - **Model:** `gemini-2.0-flash`
 3. **Connect** AI Agent → Gemini node
-
-### 📊 Model Settings Explained:
-- **Temperature (0-1):** Higher = more creative, Lower = more focused
-- **Max Tokens:** Limits response length (1 token ≈ 4 characters)
-- **Top-K:** Controls vocabulary diversity
-- **Top-P:** Fine-tunes randomness
 
 ---
 
@@ -173,7 +177,11 @@ Remember to stay helpful and maintain a positive tone in all interactions.
 ### Meta Developer Console Setup:
 1. **Go to** [Meta for Developers](https://developers.facebook.com/)
 2. **Navigate to** your app → WhatsApp → API Setup
+![Fig5](./images/Fig5_annotated.png) 
+
 3. **Generate required credentials:**
+
+![Fig6](./images/Fig6_annotated.png) 
 
 #### Required Information:
 - **Access Token:** 
