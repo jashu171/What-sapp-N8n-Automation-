@@ -1,4 +1,4 @@
-# 🤖 Complete WhatsApp AI Bot Setup Guide
+#  Complete WhatsApp AI Bot Setup Guide
 *The Ultimate Beginner-Friendly Tutorial*
 
 ---
