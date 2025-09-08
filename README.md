@@ -64,6 +64,9 @@ Create a dedicated folder for your WhatsApp bots to stay organized as you expand
 
 ### Step 3.1: Create Business Portfolio
 
+![Fig1](./images/Fig1_annotated.png)  
+
+
 1. **Navigate to** [Meta Business Suite](https://business.facebook.com/)
 2. **Sign in** with your Facebook credentials
 3. **Click "Create Business Portfolio"**
