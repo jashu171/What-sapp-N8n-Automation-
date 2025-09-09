@@ -3,18 +3,18 @@
 
 ---
 
-## 📋 What You'll Build
+##  What You'll Build
 
 By the end of this guide, you'll have a fully functional WhatsApp AI bot that:
-- ✅ Responds to messages automatically
-- ✅ Uses Google Gemini AI for intelligent replies
-- ✅ Works 24/7 without manual intervention
-- ✅ Handles multiple conversations simultaneously
-- ✅ Requires zero coding experience
+-  Responds to messages automatically
+-  Uses Google Gemini AI for intelligent replies
+-  Works 24/7 without manual intervention
+-  Handles multiple conversations simultaneously
+-  Requires zero coding experience
 
 ---
 
-## 🛠️ Prerequisites
+##  Prerequisites
 
 Before we start, make sure you have:
 - [ ] A Facebook/Meta account
@@ -25,7 +25,7 @@ Before we start, make sure you have:
 
 ---
 
-## 📱 Step 1: Create Your n8n Workflow
+##  Step 1: Create Your n8n Workflow
 
 **Purpose:** Think of a workflow as your bot's blueprint - it's where all the automation magic happens.
 
@@ -36,12 +36,12 @@ Before we start, make sure you have:
    - Suggested name: `WhatsApp AI Bot v1.0`
    - This helps you identify it later if you create multiple bots
 
-### 💡 Pro Tip:
+###  Pro Tip:
 Create a dedicated folder for your WhatsApp bots to stay organized as you expand your automation projects.
 
 ---
 
-## 👂 Step 2: Add WhatsApp Trigger Node
+##  Step 2: Add WhatsApp Trigger Node
 
 **Purpose:** This is your bot's "ears" - it detects when someone sends you a WhatsApp message.
 
@@ -51,14 +51,14 @@ Create a dedicated folder for your WhatsApp bots to stay organized as you expand
 3. **Select "WhatsApp Trigger"** or "On Message Connector"
 4. **Drag it to your canvas**
 
-### 📝 Node Configuration:
+###  Node Configuration:
 - **Trigger Type:** Message Received
 - **Message Types:** Text (you can expand this later)
 - **Webhook URL:** Will be auto-generated
 
 ---
 
-## 🏢 Step 3: Setup Meta Business Integration
+##  Step 3: Setup Meta Business Integration
 
 **Purpose:** WhatsApp Business API requires a Meta Business Portfolio for enterprise-level access and security.
 
@@ -104,14 +104,14 @@ Create a dedicated folder for your WhatsApp bots to stay organized as you expand
    - **Business Portfolio ID**
 
 
-### 🔐 Security Note:
+###  Security Note:
 Store these credentials in a secure password manager. Never share them publicly or commit them to version control.
 
 ![Fig4](./images/Fig4_annotated.png) 
 
 ---
 
-## 🧠 Step 4: Configure AI Agent
+##  Step 4: Configure AI Agent
 
 **Purpose:** This defines your bot's personality, tone, and response style.
 
@@ -143,7 +143,7 @@ Timestamp: "{{ $json.messages[0].timestamp }}"
 Remember to stay helpful and maintain a positive tone in all interactions.
 ```
 
-### 🎨 Customization Options:
+###  Customization Options:
 - **Formal Business:** Remove emojis, use formal language
 - **Casual Friend:** Add more personality, use slang appropriately
 - **Technical Support:** Include troubleshooting steps, ask diagnostic questions
@@ -151,7 +151,7 @@ Remember to stay helpful and maintain a positive tone in all interactions.
 
 ---
 
-## 🤖 Step 5: Integrate Google Gemini AI
+##  Step 5: Integrate Google Gemini AI
 
 **Purpose:** This is your bot's "brain" - the AI engine that generates intelligent responses.
 
@@ -170,7 +170,7 @@ Remember to stay helpful and maintain a positive tone in all interactions.
 
 ---
 
-## 📤 Step 6: Setup WhatsApp Response System
+##  Step 6: Setup WhatsApp Response System
 
 **Purpose:** This sends the AI-generated responses back to your WhatsApp contacts.
 
@@ -210,7 +210,7 @@ Remember to stay helpful and maintain a positive tone in all interactions.
 
 ---
 
-## 🔗 Step 7: Connect Your Workflow
+##  Step 7: Connect Your Workflow
 
 **Purpose:** Link all components to create a seamless automation flow.
 
@@ -232,7 +232,7 @@ WhatsApp Trigger → AI Agent → Google Gemini → Send Message
 
 ---
 
-## ✅ Step 8: Testing & Deployment
+##  Step 8: Testing & Deployment
 
 ### Pre-Launch Checklist:
 - [ ] All nodes are connected properly
@@ -259,7 +259,7 @@ WhatsApp Trigger → AI Agent → Google Gemini → Send Message
 
 ---
 
-## 🚀 Step 9: Advanced Enhancements
+##  Step 9: Advanced Enhancements
 
 ### Feature Additions:
 - **Image Processing:** Add vision capabilities with Gemini Pro Vision
@@ -277,7 +277,7 @@ WhatsApp Trigger → AI Agent → Google Gemini → Send Message
 
 ---
 
-## 📊 Monitoring & Maintenance
+##  Monitoring & Maintenance
 
 ### Daily Tasks:
 - [ ] Check execution logs for errors
@@ -296,7 +296,7 @@ WhatsApp Trigger → AI Agent → Google Gemini → Send Message
 
 ---
 
-## 🔒 Security Best Practices
+##  Security Best Practices
 
 ### API Security:
 - **Rotate tokens regularly** (at least monthly)
@@ -312,7 +312,7 @@ WhatsApp Trigger → AI Agent → Google Gemini → Send Message
 
 ---
 
-## 💡 Success Metrics
+##  Success Metrics
 
 Track these KPIs to measure your bot's effectiveness:
 
@@ -324,13 +324,13 @@ Track these KPIs to measure your bot's effectiveness:
 
 ---
 
-## 🎉 Congratulations!
+##  Congratulations!
 
 You've successfully built a sophisticated WhatsApp AI bot that can:
-- ✅ Handle customer inquiries automatically
-- ✅ Provide intelligent, contextual responses
-- ✅ Scale to handle multiple conversations
-- ✅ Operate 24/7 without manual intervention
+-  Handle customer inquiries automatically
+-  Provide intelligent, contextual responses
+-  Scale to handle multiple conversations
+-  Operate 24/7 without manual intervention
 
 ### Next Steps:
 1. **Monitor performance** for the first week
@@ -340,7 +340,7 @@ You've successfully built a sophisticated WhatsApp AI bot that can:
 
 ---
 
-*Happy automating! 🚀*
+*Happy automating! *
 
 ---
 
